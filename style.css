@@ -1,0 +1,46 @@
+@font-face {
+    font-family: coolbeans;
+    src: url(fonts/monovariable.ttf);
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background-image: url(images/dane.jpg);
+    background-size: 60px;
+}
+
+
+
+img.bouble {
+        width: 200px;
+        border-radius: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+
+   }
+
+img.fork {
+    display: block;
+    margin: auto;
+    margin-top: -19px;
+    margin-left: -190px;
+}
+
+p.jtext {
+     color: rgb(0, 0, 0);
+     font-size: 30px;
+     -webkit-text-stroke: 0.4px blue;
+     text-align: center;
+     padding-top: 20px;
+     margin: 0;
+     font-family: coolbeans;
+     }
+
+header{
+    background-image: url(images/meat.jpg);
+    margin: 0;
+    padding-bottom: 20px;
+}
