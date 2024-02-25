@@ -10,7 +10,10 @@ html, body{
     background-size: 60px;
 }
 
-
+a {
+    text-decoration: none;
+    color: black;
+}
 
 img.bouble {
         width: 200px;
@@ -21,6 +24,7 @@ img.bouble {
         margin-top: 50px;
 
    }
+
 
 img.fork {
     display: block;
@@ -38,7 +42,17 @@ p.jtext {
      margin: 0;
      font-family: coolbeans;
      }
-
+a.poem {
+   display: inline-block;
+    position: relative;
+    background-color: red;
+    position:absolute;
+    top: 700px;
+    left: 600px;
+}
+a.poem:hover{
+    background-color: blue;
+}
 header{
     background-image: url(images/meat.jpg);
     margin: 0;
